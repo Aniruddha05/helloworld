@@ -1,2 +1,2 @@
 # helloworld
-Basic startup application
+Basic helloworld application
