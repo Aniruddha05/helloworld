@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<head>
+    <title>
+        Anirrudh's first webpage
+    </title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #dee2e2;
+
+        }
+
+        .container {
+            padding-left:30px;
+            padding-right:30px;
+        }
+
+        .container .header {
+            margin-bottom: 30px;
+        }
+        .container .header h1{
+            padding-top:40px;
+            padding-bottom:20px;
+            border-bottom: 2px solid #333333;
+        }
+
+        .container .navigation {
+            margin-bottom: 30px;
+            /*border-bottom: 2px solid #333333;*/
+            border-bottom-width:2px;
+            border-bottom-style: solid;
+            border-bottom-color: #333333;
+            padding-bottom: 30px;
+        }
+
+        .container .navigation ul {
+            list-style: none;
+        }
+
+        .container .navigation ul li {
+            display: inline-block;
+            padding-top:0;
+            padding-bottom:0;
+            padding-right:15px;
+            padding-left:15px;
+            border-right: 2px solid #333333;
+            font-size: 13px;
+        }
+
+        .container .navigation ul li:hover {
+            background-color: yellow;
+            text-decoration: underline;
+        }
+
+        .container .navigation ul li:last-child {
+            border-right:0;
+        }
+
+        .container .navigation ul li:first-child {
+            padding-left:0;
+        }
+
+        .container .main-content .actual-content {
+            display: inline-block;
+            width: 28%;
+            border: 1px solid #333333;
+            padding-top: 15px;
+            padding-right: 10px;
+            padding-bottom: 15px;
+            padding-left: 10px;
+            vertical-align: top;
+            border-radius: 10px;
+        }
+
+        .container .main-content .actual-content h2{
+            font-size: 14px;
+            border-bottom: 1px solid #333333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .container .main-content .actual-content p {
+            font-size: 13px;
+            text-align: justify;
+        }
+
+        .mr-25px{
+            margin-right:25px;
+        }
+
+         .container .footer {
+            margin-top: 30px;
+            border-top: 2px solid #333333;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .container .footer p {
+            text-align: center; 
+            font-size: 12px;
+        }
+
+        .container .footer p.footer-text {
+            margin-top:5px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                AngularJS Tutorial
+            </h1>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li>NG Scope</li>
+                <li>NG Controller</li>
+                <li>NG Filter</li>
+                <li>NG Routing</li>
+                <li>NG Factory</li>
+                <li>NG Services</li>
+                <li>NG API's</li>
+                <li>About</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="actual-content mr-25px">
+                <h2>
+                    What is AngularJS
+                </h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div class="actual-content mr-25px">
+                <h2>
+                    What is AngularJS Scope
+                </h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div class="actual-content">
+                <h2>
+                    What is AngularJS Controller
+                </h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                help@lipsum.com
+            </p> 
+            <p class="footer-text">
+                Privacy Policy
+            </p>
+        </div>
+    </div>
+</body>
